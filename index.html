@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Healthy Corner</title>
+    <!-- Lien Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Lien CSS personnalisé -->
+    <link rel="stylesheet" href="style.css">
+<!-- Lien des icones -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Section En-tête -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Restaurant Healthy Corner</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">À propos de nous</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<section id="hero" class="text-center text-white d-flex align-items-center justify-content-center">
+    <div class="overlay"></div>
+    <div class="content">
+        <h1 class="display-4 hero-title">Bienvenue au Restaurant Healthy Corner</h1>
+        <a href="#menu" class="btn btn-primary mt-3">Voir le Menu</a>
+    </div>
+</section>
+
+<section id="menu">
+    <h2 class="text-center">Notre Menu</h2>
+    <div class="container">
+        <div class="row">
+            <!-- Item 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="menu-item">
+                    <img src="soupe-verte.jpeg" alt="Soupe de légumes verts" class="img-fluid">
+                    <h3>Soupe de légumes verts</h3>
+                    <p>Épinards, brocoli, poireau et courgettes.</p>
+                    <span class="price">15D</span>
+                </div>
+            </div>
+            <!-- Item 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="menu-item">
+                    <img src="plat2.jpg" alt="Saumon grillé" class="img-fluid">
+                    <h3>Saumon grillé</h3>
+                    <p>Filet de saumon assaisonné et grillé à la perfection, servi avec une sauce au beurre citronné.</p>
+                    <span class="price">39D</span>
+                </div>
+            </div>
+            <!-- Item 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="menu-item">
+                    <img src="plat1.jpg" alt="Penne aux fruits de mer" class="img-fluid">
+                    <h3>Penne aux fruits de mer</h3>
+                    <p>Des penne accompagnées d'une sauce tomate savoureuse, parfumée à l'ail et au basilic, avec des fruits de mer frais.</p>
+                    <span class="price">49D</span>
+                </div>
+            </div>
+            <!-- Item 4 -->
+            <div class="col-md-4 mb-4">
+                <div class="menu-item">
+                    <img src="salade2.jpg" alt="Salade verte à l'avocat" class="img-fluid">
+                    <h3>Salade verte à l'avocat</h3>
+                    <p>Salade verte croquante avec avocat crémeux, agrémentée d'une vinaigrette citronnée légère.</p>
+                    <span class="price">19D</span>
+                </div>
+            </div>
+            <!-- Item 5 -->
+            <div class="col-md-4 mb-4">
+                <div class="menu-item">
+                    <img src="salade-fruit.jpeg" alt="Salade fruits de mer" class="img-fluid">
+                    <h3>Salade fruits de mer</h3>
+                    <p>Salade de fruits de mer avec crevettes et calamars, relevée d'une sauce citronnée légère.</p>
+                    <span class="price">35D</span>
+                </div>
+            </div>
+            <!-- Item 6 -->
+            <div class="col-md-4 mb-4">
+                <div class="menu-item">
+                    <img src="poulet.jpg" alt="Poulet et brocoli" class="img-fluid">
+                    <h3>Poulet et brocoli</h3>
+                    <p>Poulet tendre et brocolis croquants, accompagnés d'une sauce légère et savoureuse, pour un plat sain et équilibré.</p>
+                    <span class="price">25D</span>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Item 7 -->
+                <div class="col-md-4 mb-4">
+                    <div class="menu-item">
+                        <img src="cigales.jpg" alt="Cigales grillées" class="img-fluid">
+                        <h3>Cigales grillées</h3>
+                        <p>Des cigales fraîches, grillées à la perfection, délicatement assaisonnées d'épices et de citron.</p>
+                        <span class="price">99D</span>
+                    </div>
+                </div>
+                <!-- Item 8 -->
+                <div class="col-md-4 mb-4">
+                    <div class="menu-item">
+                        <img src="riz.jpg" alt="Riz aux fruits secs et viande" class="img-fluid">
+                        <h3>Riz aux fruits secs et viande</h3>
+                        <p>Un délicieux mélange de riz parfumé, accompagné de fruits secs croquants (raisins, abricots, amandes) et de morceaux de viande tendre.</p>
+                        <span class="price">65D</span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Section À propos de nous -->
+<section id="about" class="py-5 bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="resto3.png" class="img-fluid rounded" alt="À propos de nous">
+            </div>
+            <div class="col-md-6">
+                <h2>À propos de nous</h2>
+                <p>Un lieu dédié à une cuisine saine, équilibrée et savoureuse. Nous proposons des plats préparés avec des ingrédients frais, locaux et biologiques, pour nourrir votre corps tout en respectant vos choix alimentaires. Que vous soyez végétarien, vegan ou amateur de repas légers, notre menu est conçu pour promouvoir le bien-être et la santé.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section Contact -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Contactez-nous</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nom</label>
+                <input type="text" class="form-control" id="name" placeholder="Votre nom">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Votre email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Votre message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Restaurant Healthy Corner. Tous droits réservés.</p>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/HealthyCornerFB" target="_blank" class="facebook">
+            <i class="fab fa-facebook-f"></i> Healthy-Corner
+        </a>
+        <a href="https://www.instagram.com/HealthyCornerInsta" target="_blank" class="instagram">
+            <i class="fab fa-instagram"></i> Healthy-Corner
+        </a>
+    </div>
+</footer>
+
+
+
+<!-- Lien Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
